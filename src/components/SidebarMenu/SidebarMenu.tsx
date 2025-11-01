@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { FaChevronDown, FaChevronRight } from "react-icons/fa";
 import { TfiClose } from "react-icons/tfi";
 
-interface MenuItem {
+export interface MenuItem {
   id: string;
   label: string;
   icon?: string;
