@@ -8,7 +8,7 @@ export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   clearable?: boolean;
 }
 
-export const Input = ({
+const Input = ({
   type = "text",
   label,
   error,
@@ -78,3 +78,5 @@ export const Input = ({
     </div>
   );
 };
+
+export default Input;

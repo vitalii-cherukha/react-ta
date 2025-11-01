@@ -1,7 +1,7 @@
 import type { Meta } from "@storybook/react-vite";
 
-import { SidebarMenu, type MenuItem } from "./SidebarMenu";
 import { useState } from "react";
+import SidebarMenu, { type MenuItem } from "./SidebarMenu";
 
 const meta = {
   component: SidebarMenu,

@@ -83,7 +83,6 @@ const MenuItemComponent = ({
         )}
       </div>
 
-      {/* Підменю (рекурсивно) */}
       {hasChildren && isExpanded && (
         <div>
           {item.children!.map((child) => (
@@ -95,7 +94,7 @@ const MenuItemComponent = ({
   );
 };
 
-export const SidebarMenu = ({ isOpen, onClose, items }: SidebarMenuProps) => {
+const SidebarMenu = ({ isOpen, onClose, items }: SidebarMenuProps) => {
   const [isAnimating, setIsAnimating] = useState(false);
 
   useEffect(() => {
@@ -111,7 +110,6 @@ export const SidebarMenu = ({ isOpen, onClose, items }: SidebarMenuProps) => {
     }, 300);
   };
 
-  // Закриття по Escape
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
       if (e.key === "Escape" && isOpen) {
@@ -242,3 +240,5 @@ export const SidebarMenu = ({ isOpen, onClose, items }: SidebarMenuProps) => {
     </>
   );
 };
+
+export default SidebarMenu;

@@ -15,7 +15,7 @@ interface ToastProps {
   isVisible?: boolean;
 }
 
-export const Toast = ({
+const Toast = ({
   message,
   type = "info",
   duration = 3000,
@@ -183,3 +183,5 @@ export const Toast = ({
     </>
   );
 };
+
+export default Toast;
