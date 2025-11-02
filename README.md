@@ -2,7 +2,7 @@
 
 A compact React component library featuring three reusable UI components — Input, Toast, and SidebarMenu — all documented and demonstrated in Storybook.
 
-##🚀 Getting Started
+## 🚀 Getting Started
 
 ```
 npm install
@@ -12,7 +12,7 @@ npm run storybook
 Storybook will be available at http://localhost:6006
 .
 
-##🧱 Project Structure
+## 🧱 Project Structure
 
 ```
 src/components/
@@ -22,7 +22,7 @@ src/components/
 public/images/
 ```
 
-##🧠 Components Overview
+## 🧠 Components Overview
 
 📥 Input
 
@@ -43,7 +43,8 @@ Slides in from the right with overlay background
 Supports nested (one-level or two-level) menus
 Closes on overlay click or ESC key press
 
-##🖼️ Component Screenshots
+## 🖼️ Component Screenshots
+
 Screenshots (з `public/images`):
 
 - Input — number field
